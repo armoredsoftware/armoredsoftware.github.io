@@ -9,8 +9,9 @@ environment.
 ## Recent Activities
 -----
 
-* ArmoredSoftware is up and going.  We have selected OpenStack as our
-  Cloud infrastructure and we're setting up our experimental cloud.
+{% for post in site.posts %}
+* [{{ post.title }}]({{ site.baseurl }}{{ post.url }})  {{ post.date | date_to_string }}
+{% endfor %}
 
 ## Team
 -----
