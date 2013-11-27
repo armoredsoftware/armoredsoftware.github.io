@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: ArmoredSoftware
+title: {{ site.title }} Blog
 ---
 
 # Blog
