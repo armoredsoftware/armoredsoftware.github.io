@@ -17,6 +17,8 @@ environment.
 ## Team
 -----
 
+{% include people.html %}
+
 ArmoredSoftware is run by The Information and Telecommunication
 Technology Center at The University of Kansas.
 
