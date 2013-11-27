@@ -1,5 +1,5 @@
 ---
-layout: bare
+layout: blog
 category: blog
 titie: Up and going
 ---
