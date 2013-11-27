@@ -1,11 +1,9 @@
 ---
 layout: frontpage
-title: ArmoredSoftware
+title: {{ site.title }}
 ---
 
 # Blog
-
-Test here...
 
 {% for post in site.categories.blog %}
 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
