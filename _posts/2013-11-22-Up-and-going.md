@@ -1,5 +1,6 @@
 ---
 layout: bare
+category: blog
 titie: Up and going
 ---
 
