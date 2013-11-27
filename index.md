@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: AmoredSoftware
+title: {{ site.title }}
 ---
 
 {{ site.description }}
