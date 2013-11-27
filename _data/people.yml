@@ -1,0 +1,22 @@
+- name: Perry Alexander
+  description: Formal methods; trusted computing; design languages; semantics; system-level design; component retrieval; and test vector generation. 
+  role: faculty
+  email: palexand@ku.edu
+  web: http://www.ittc.ku.edu/~alex
+
+- name: Andy Gill
+  description: Functional programming; domain specific languages; software and hardware synthesis
+  role: faculty
+  email: andygill@ku.edu
+
+- name: Prasad Kulkarni
+  description: Compilers; virual machines; optimization
+  role: faculty
+  email: prasadk@ku.edu
+
+- name: Leon Searl
+  description: Research staff
+  role: staff
+
+- name: Ed Bishop
+  role: contractor
