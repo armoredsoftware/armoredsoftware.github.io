@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Publications
+title: {{ site.title }}
 ---
 
 # Publications

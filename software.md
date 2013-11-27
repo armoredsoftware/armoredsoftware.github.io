@@ -1,9 +1,9 @@
 ---
 layout: frontpage
-title: Documenation
+title: {{ site.title }}
 ---
 
 # Software
 
-Software downloads coming soon...
+No software downloads available at this time.
 
