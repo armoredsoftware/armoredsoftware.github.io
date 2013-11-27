@@ -3,4 +3,4 @@ title: ArmoredSoftware
 subtitle: Trusted execution in the cloud
 github: https://github.com/armoredsoftware
 sponsors: The United States Department of Defense
-description: ArmoredSoftware is an effort to build a cloud infrastructure where software can protect itself rather than relying exclusively on its environment. The armor associate with a process provides remote attestation and appraisal techniques that support assessing the trustworthiness of its operational environment.  Using that information, the armor decides what steps should be taken to protect its associated process.
+description: ArmoredSoftware is an effort to build a cloud infrastructure where software can protect itself rather than relying exclusively on its environment. The armor associated with a process provides remote attestation and appraisal techniques that support assessing the trustworthiness of its operational environment.  Using that information, the armor decides what steps should be taken to protect its associated process.
