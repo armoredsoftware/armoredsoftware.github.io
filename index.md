@@ -17,28 +17,11 @@ environment.
 ## Team
 -----
 
-{% include people.html %}
-
 ArmoredSoftware is run by The Information and Telecommunication
 Technology Center at The University of Kansas.
 
-### Faculty
+{% include people.html %}
 
-* Perry Alexander (PI)
-* Andy Gill (Co-PI)
-* Prasad Kulkarni (Co-PI) 
-
-### Staff
-
-* Leon Searl
-
-### Students
-
-### Subcontractors
-
-* Ed Bishop
-
-## Sponsors
 -----
 
 ArmoredSoftware is supported by The United States Department of Defense.
