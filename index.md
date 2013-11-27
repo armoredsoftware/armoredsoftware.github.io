@@ -3,9 +3,7 @@ layout: frontpage
 title: AmoredSoftware
 ---
 
-ArmoredSoftware is an effort to build a cloud infrastructure where
-software can protect itself rather than relying exclusively on its
-environment.
+{{ site.description }}
 
 ## Recent Activities
 -----
@@ -17,11 +15,8 @@ environment.
 ## Team
 -----
 
-ArmoredSoftware is run by The Information and Telecommunication
-Technology Center at The University of Kansas.
-
 {% include people.html %}
 
 -----
 
-ArmoredSoftware is supported by The United States Department of Defense.
+{{ site.title }} is supported by {{ site.sponsors }}
