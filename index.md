@@ -8,7 +8,7 @@ title: {{ site.title }}
 ## Recent Activities
 -----
 
-{% for post in site.posts.blog %}
+{% for post in site.posts.blog limit:10 %}
 * [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date_to_string }}
 {% endfor %}
 
