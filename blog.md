@@ -1,9 +1,9 @@
 ---
 layout: frontpage
-title: ArmoredSoftware Blog
+title: ArmoredSoftware
 ---
 
-# {{ page.title }}
+# Blog
 
 {% for post in site.categories.blog %}
 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
