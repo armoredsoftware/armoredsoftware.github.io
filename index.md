@@ -1,5 +1,6 @@
 ---
 layout: frontpage
+title: AmoredSoftware
 ---
 
 ArmoredSoftware is an effort to build a cloud infrastructure where
