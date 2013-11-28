@@ -1,11 +1,14 @@
-<ul>
-{% for release in site.data.releases %}
+{% for release in site.date.releases limit:1 %}
 {% if release.name == "none" %}
-No current software relases
+No current software relases.
 {% else %}
-<li> <a href="{{ site.baseurl }}/{{ site.repo }}/resources/{{ release.file }}">{{ release.name }}</a>, version {{ release.version }} - {{ release.description }}</li>
+ <ul>
+ {% for release in site.data.releases %}
+ <li> <a href="{{ site.baseurl }}/{{ site.repo }}/resources/{{ release.file }}">{{ release.name }}</a>, version {{ release.version }} - {{ release.description }} </li>
+ {% endfor %}
+ </ul>
 {% endif %}
 {% endfor %}
-</ul>
+
 
 Visit {{ site.title }} on [github](http://github.com/{{ site.account }}/{{ site.repo }})
