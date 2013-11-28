@@ -6,5 +6,3 @@ title: {{ site.title }}
 # Software
 
 {% include releases.html %}
-
-
