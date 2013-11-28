@@ -1,6 +1,6 @@
 <ul>
 {% for release in site.data.releases %}
-{% if relase.name == "none" %}
+{% if release.name == "none" %}
 No current software relases
 {% else %}
 <li> <a href="{{ site.baseurl }}/{{ site.repo }}/resources/{{ release.file }}">{{ release.name }}</a>, version {{ release.version }} - {{ release.description }}</li>
