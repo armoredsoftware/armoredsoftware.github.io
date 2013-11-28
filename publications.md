@@ -5,5 +5,4 @@ title: {{ site.title }}
 
 # Publications
 
-Publications coming soon...
-
+{% include publications.html %}
