@@ -14,6 +14,8 @@ title: {{ site.title }}
 {% endfor %}
 </ul>
 
+{% include blog-date-10.html %}
+
 ## Team
 -----
 
