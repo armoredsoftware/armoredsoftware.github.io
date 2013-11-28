@@ -9,6 +9,8 @@ title: {{ site.title }}
 
 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 
+{{ post.date | date_to_string }}
+
 {{ post.content }}
 
 -----
