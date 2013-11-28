@@ -1,7 +1,7 @@
 <ul>
 {% for paper in site.data.publications %}
 {% if paper.author == "none" %}
-   <p>No current publications</p>
+No current publications
 {% else %}
 <li>{{ paper.author }}, <a href="{{ site.baseurl }}/{{ site.repo }}/resources/{{ paper.pdf }}">{{ paper.title }}</a>, {{ paper.where }}</li>
 {% endif %}
