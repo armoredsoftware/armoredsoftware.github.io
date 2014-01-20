@@ -18,5 +18,16 @@
   description: Research staff
   role: staff
 
+- name: Justin Dawson
+  description: GRA
+  role: student
+
+- name: Jason Gevargizian
+  description: GRA
+  role: student
+
 - name: Ed Bishop
+  role: contractor
+
+- name Ciro Pinto-Coelho
   role: contractor
