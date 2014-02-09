@@ -7,7 +7,7 @@ title: {{ site.title }}
 
 ## System Documentation
 
-Coming soon...
+* Coming soon...
 
 ## Background Papers
 
