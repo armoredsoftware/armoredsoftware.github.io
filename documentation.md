@@ -108,6 +108,7 @@ for bibliographies and references.  Use `flyspell` for on-the-fly
 spell checking.
 1. `bibtex` - for references.  We will maintain a BibTeX database that
 will be common across the project in the `doc` repository.
+1. `beamer` - for presentations.
 1. `markdown` - for documentation, wikis, and we pages
 1. `git` - for repository management.  Commit often and branch for new
 code development.
