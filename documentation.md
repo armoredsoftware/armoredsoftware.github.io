@@ -49,3 +49,15 @@ available to the general public.
   
 Remember that only the `admin.wiki` is private.  All other wikis are
 available to the general public.
+
+## Environment
+
+Description of our working environment.
+
+*Coming soon*
+
+## Information for Students
+
+Student specific information.
+
+*Coming soon*
