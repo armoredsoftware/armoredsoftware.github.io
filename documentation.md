@@ -7,9 +7,13 @@ title: {{ site.title }}
 
 ## System Documentation
 
+---
+
 * Coming soon...
 
 ## Background Papers
+
+---
 
 * [10 Page Introduction to Trusted Computing](http://www.cs.ox.ac.uk/files/1873/RR-08-11.PDF) is a nice, brief paper that overviews the basics of trusted
   computing.
@@ -17,6 +21,8 @@ title: {{ site.title }}
 * [Semantic Remote Attestation](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.1.4055) is the seminal initial work on remote attestation.
 
 ## Layout
+
+---
 
 Description of repositories and wikis used for the project.
 
@@ -52,11 +58,15 @@ available to the general public.
 
 ## Environment
 
+---
+
 Description of our working environment.
 
 *Coming soon*
 
 ## Information for Students
+
+---
 
 Student specific information.
 
