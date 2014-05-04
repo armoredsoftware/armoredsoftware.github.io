@@ -1,4 +1,5 @@
 baseurl: http://armoredsoftware.github.io/
+markdown: kramdown
 title: ArmoredSoftware
 subtitle: Trusted execution in the cloud
 github: https://github.com/armoredsoftware
