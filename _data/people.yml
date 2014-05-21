@@ -26,6 +26,14 @@
   description: GRA
   role: student
 
+- name: Adam Petz
+  description: GRA
+  role: student
+
+- name: Paul Kline
+  description: GRA
+  role: student
+
 - name: Ed Bishop
   role: contractor
 
