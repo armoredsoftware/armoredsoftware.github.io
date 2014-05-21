@@ -32,13 +32,13 @@ Description of repositories and wikis used for the project.
   [project website](http://armoredsoftware.github.io). This is our public face complete with blog and software
   releases.  Take the time to understand the site and how gh-pages
   works before you modify it.
-* `admin` - Administrative cruft.  This is the only repo that is not
+* [admin](https://github.com/armoredsoftware/admin) - Administrative cruft.  This is the only repo that is not
   publicly available.  Anything we do not want the world to see goes
   here.  Everyone on the project should have access.
-* `doc` - System documentation.  Design documents, presentations,
+* [doc](https://github.com/armoredsoftware/doc) - System documentation.  Design documents, presentations,
   capability descriptions, and formal documentation.  Current
   documentation should always be on the `main` branch.
-* `code` - All code for the system.  Source code, Makefiles,
+* [code](https://github.com/armoredsoftware/code) - All code for the system.  Source code, Makefiles,
   configuration files, scripts, and anything else required for
   building the base ArmoredSoftware system.  Current system should always be
   on the `main` branch.
