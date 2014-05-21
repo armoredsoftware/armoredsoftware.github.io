@@ -29,9 +29,12 @@ Description of repositories and wikis used for the project.
 ### Repos
 
 * `armoredsoftware.github.io` - Website repo that contains the project
-  website.
+  website. This is our public face complete with blog and software
+  releases.  Take the time to understand the site and how gh-pages
+  works before you modify it.
 * `admin` - Administrative cruft.  This is the only repo that is not
-  publicly available.  Students need not have access to this repo.  
+  publicly available.  Anything we do not want the world to see goes
+  here.  Everyone on the project should have access.
 * `doc` - System documentation.  Design documents, presentations,
   capability descriptions, and formal documentation.  Current
   documentation should always be on the `main` branch.
@@ -70,21 +73,6 @@ Description of our working environment.
 
 Student specific information.
 
-### What *done* means
-
-If you are asked *is a development task done*, here are your criteria
-for deciding:
-
-1. Code compiles and runs in our standard working environment
-1. Makefiles are up-to-date and support system building
-1. Code has been tested in our standard working environment
-1. Code is checked into the proper repository
-1. Documentation is checked into the proper repository
-1. Test cases installed for nightly build testing
-
-Not being done is usually okay.  Saying you're done when you don't
-meet the *done* criteria is always bad.
-
 ### ITTC and Core Hours
 
 Students need to be in the laboratory during core hours 10am-3pm
@@ -103,10 +91,14 @@ as it does not interfere with our work.
 
 ### Meetings
 
-We will schedule project meetings once a week.  You need to be there
+We will schedule project meetings at least once a week.  You need to be there
 and let your advisor know if for some reason you're not.  Chances are
 advisers will also meet with their groups separately.  How that is
-structure is up to you and your ad-visor.
+structure is up to you and your advisor.
+
+We will also schedule a reading group that you will be asked to
+attend.  Most students have a ton to learn when they join the group and
+it's easiest todo that together.
 
 ### Tools
 
@@ -137,5 +129,24 @@ frequently.  Here are some guidelines for papers:
    more faculty advisers.
 1. Always acknowledge the sponsor using the footnote:
 
-*This work in sponsored by the United States Department of Defense,
- contract number H98230-13-C-0264*
+*This work in sponsored by the United States Department of Defense*
+
+### What *done* means
+
+If you are asked *is a development task done*, here are your criteria
+for deciding:
+
+1. Code compiles and runs in our standard working environment
+1. Makefiles are up-to-date and support system building
+1. Code has been tested in our standard working environment
+1. Code is checked into the proper repository
+1. Documentation is checked into the proper repository
+1. Test cases installed for nightly build testing
+
+Not being done is usually okay.  Saying you're done when you don't
+meet the *done* criteria is always bad.
+
+### The Team
+
+Self-sufficiency is not our goal.  Ask questions, cite references, and
+reuse code and systems where possible.
