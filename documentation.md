@@ -48,12 +48,15 @@ available to the general public.
 
 ### Wikis
 
-* `admin.wiki` - Administrative wiki.  This is the only wiki that is
+* [admin.wiki](https://github.com/armoredsoftware/admin/wiki) -
+  Administrative wiki.  This is the only wiki that is 
   not publicly available.  Students need not have access to this repo.
-* `doc.wiki` - Public ArmoredSoftware wiki.  Meeting notes are here as
+* [doc.wiki](https://github.com/armoredsoftware/doc/wiki) - Public
+  ArmoredSoftware wiki.  Meeting notes are here as 
   well as general notes on development and informal documentation.
   Add pages here for documenting design decisions and discussions.
-* `code.wiki` - Research notebook wiki.  Each developer should have a
+* [code.wiki](https://github.com/armoredsoftware/code.wiki) - Research
+  notebook wiki.  Each developer should have a 
   wiki page here where they document their development activities.
   
 Remember that only the `admin.wiki` is private.  All other wikis are
