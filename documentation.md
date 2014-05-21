@@ -28,7 +28,7 @@ Description of repositories and wikis used for the project.
 
 ### Repos
 
-* `armoredsoftware.github.io` - Website repo that contains the project
+* [](armoredsoftware.github.io) - Website repo that contains the project
   website. This is our public face complete with blog and software
   releases.  Take the time to understand the site and how gh-pages
   works before you modify it.
