@@ -15,6 +15,10 @@ environment.
 * Leon Searl
 
 ### Students
+* Adam Petz
+* Paul Kline
+* Jason Gevargizian
+* Justin Dawson
 
 ## Publications
 
