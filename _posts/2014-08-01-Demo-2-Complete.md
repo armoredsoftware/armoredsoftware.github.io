@@ -19,7 +19,7 @@ used to evaluate the target system.
 1. Attestation agent executes the protocol
 	* Gather evidence, \\(E\\), from application
 	* Creates an evidence package, \\(\{\langle E,n\rangle\}_{k^{-1}}\\)
-	* Creates a quote \\(q=\langle\#\langle E,n\rangle,PCR\rangle_{k^{-1}}\\)
+	* Creates a quote \\(q=\langle\\#\langle E,n\rangle,PCR\rangle_{k^{-1}}\\)
 1. Attestation returns the quote and evidence
 1. Appraiser checks the returned quote and evidence
 	* checks the signature of the quote
