@@ -23,7 +23,7 @@ used to evaluate the target system.
 1. Attestation returns the quote and evidence
 1. Appraiser checks the returned quote and evidence
 	* checks the signature of the quote
-	* checks the evidence package using \\(\langle E,n\rangle\\)
+	* checks the evidence package using \\(\\#\langle E,n\rangle\\)
 	* checks \\(n\\)
 	* checks \\(E=[e_0,e_1,...,e_n]\\)
 1. Provide an argument for correctness
