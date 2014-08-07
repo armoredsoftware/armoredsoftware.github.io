@@ -15,9 +15,9 @@ used to evaluate the target system.
    attestation agent for PCRs
 	* \\(D=[d_0,d_1,...,d_n]\\) - desire evidence
 	* \\(n\\) - nonce
-1. Appraiser selects a protocol based on \\(D\\)
+1. Attestation agent selects a protocol based on \\(D\\)
 1. Attestation agent executes the protocol
-	* Gather evidence, \\(E\\), from application
+	* Gathers evidence, \\(E\\), from application
 	* Creates an evidence package, \\(\{\langle E,n\rangle\}_{k^{-1}}\\)
 	* Creates a quote \\(q=\langle\\#\langle E,n\rangle,PCR\rangle_{k^{-1}}\\)
 1. Attestation returns the quote and evidence
