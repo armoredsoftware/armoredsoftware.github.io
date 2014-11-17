@@ -15,7 +15,7 @@ Demo 4, our last demonstration for our first contract year, is complete and succ
 	* Creates an \\(AIK\\) for signing a quote
 	* Requests \\(AIK\\) authentication by a certificate authority
 	* Testing \\( \\{c\\} \\)
-	* Testing \\(\\{[AIK]_{CA^{-1}}\\}_{EK}\\)
+	* Testing \\(\\{[AIK]_{CA^{-1}}\\}^{EK}\\)
 	* Receives and decrypts \\(\\{[AIK]_{CA^{-1}}\\}_{EK}\\)
 	* Gathers evidence, \\(E\\), from application
 	* Creates an evidence package, \\(\{\langle E,n\rangle\}_{AIK^{-1}}\\)
