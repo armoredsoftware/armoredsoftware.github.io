@@ -14,7 +14,7 @@ Demo 4, our last demonstration for our first contract year, is complete and succ
 1. Attestation agent executes the protocol
 	* Creates an \\(AIK\\) for signing a quote
 	* Requests \\(AIK\\) authentication by a certificate authority
-	* Receives and decrypts \\( \{[AIK]_{CA^{-1}}\}_{EK} \\)
+	* Receives and decrypts \\( {[AIK]_{CA^{-1}}}_{EK} \\)
 	* Gathers evidence, \\(E\\), from application
 	* Creates an evidence package, \\(\{\langle E,n\rangle\}_{AIK^{-1}}\\)
 	* Creates a quote \\(q=\langle\\#\langle E,n\rangle,PCR\rangle_{AIK^{-1}}\\)
