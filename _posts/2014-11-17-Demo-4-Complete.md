@@ -17,7 +17,7 @@ certificate authority.
 1. Attestation agent executes the protocol
 	* Creates an \\(AIK\\) for signing a quote
 	* Requests \\(AIK\\) authentication by a certificate authority
-	* Receives \\(\\{CAcert\\}_{k}\\) and \\(\\{k\\}_{EK}\\) where
+	* Receives \\(\\{CAcert\\}\_{k}\\) and \\(\\{k\\}\_{EK}\\) where
       \\(CAcert\\) certifies \\(AIK\\)
 	* Decrypts \\(k\\) and uses it to decrypt \\(CAcert\\)
 	* depricated - Receives and decrypts \\(\\{[AIK]_{CA^{-1}}\\}\_{EK}\\)
