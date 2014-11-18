@@ -19,7 +19,7 @@ certificate authority.
 	* Requests \\(AIK\\) authentication by a certificate authority
 	* Receives \\(\\{CAcert,AIK\\}\_{k}\\) and \\(\\{k\\}\_{EK}\\) where
       \\(\\{CAcert,AIK\\}\\) certifies \\(AIK\\)
-	* Decrypts \\(k\\) and uses it to decrypt \\(CAcert,AIK\\)
+	* Decrypts \\(k\\) and uses it to decrypt \\(\\{CAcert,AIK\\}\\)
 	* Gathers evidence makes calles to the measurer to gather \\(E\\)
 	* Receives \\(E\\)
 	* Creates an evidence package, \\(\\{\langle E,n\rangle\\}\\)
