@@ -20,7 +20,6 @@ certificate authority.
 	* Receives \\(\\{CAcert\\}\_{k}\\) and \\(\\{k\\}\_{EK}\\) where
       \\(CAcert\\) certifies \\(AIK\\)
 	* Decrypts \\(k\\) and uses it to decrypt \\(CAcert\\)
-	* depricated - Receives and decrypts \\(\\{[AIK]_{CA^{-1}}\\}\_{EK}\\)
 	* Gathers evidence makes calles to the measurer to gather \\(E\\)
 	* Receives \\(E\\)
 	* Creates an evidence package, \\(\\{\langle E,n\rangle\\}\\)
