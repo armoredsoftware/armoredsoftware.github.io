@@ -22,7 +22,7 @@ certificate authority.
 	  * \\(\\{CAcert,AIK\\}\\) certifies the \\(AIK\\)
 	  * \\(CAcert\\) is \\([AIK]_{CA^{-1}}\\), the \\(AIK\\) signed by
       the certificate authority
-	  * \\(AIKdigest\\) is \\(\\#AIK\\) the hash of public \\(AIK\\)
+	  * \\(AIKdigest\\) is \\(\\#AIK\\), the hash of public \\(AIK\\)
 	* Decrypts \\(k\\) and uses it to decrypt \\(\\{CAcert,AIK\\}\\)
 	* Gathers evidence makes calles to the measurer to gather \\(E\\)
 	* Receives \\(E\\)
