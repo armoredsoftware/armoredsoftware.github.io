@@ -18,13 +18,12 @@ certificate authority.
 1. Attestation agent executes the selected protocol:
 	* Creates an \\(AIK\\) for signing a quote
 	* Requests \\(AIK\\) authentication by a certificate authority
-	* Receives \\(\\{CAcert,AIK\\}\_{k}\\) and
+	* Receives \\(\\{CAcert\\}\_{k}\\) and
 	  \\(\\{k,AIKdigest\\}\_{EK}\\) where 
-	  * \\(\\{CAcert,AIK\\}\\) certifies the \\(AIK\\)
 	  * \\(CAcert\\) is \\([AIK]_{CA^{-1}}\\), the \\(AIK\\) signed by
       the certificate authority
 	  * \\(AIKdigest\\) is \\(\\#AIK\\), the hash of public \\(AIK\\)
-	* Decrypts \\(k\\) and uses it to decrypt \\(\\{CAcert,AIK\\}\\)
+	* Decrypts \\(k\\) and uses it to decrypt \\(\\{CAcert\\}\\)
 	* Gathers evidence makes calls to the measurer based on the
       requst, \\(D\\), to gather \\(E\\)
 	* Receives \\(E\\)
