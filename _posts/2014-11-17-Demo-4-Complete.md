@@ -31,7 +31,7 @@ certificate authority.
 	* Creates an evidence package, \\(\\{\langle E,n\rangle\\}\\)
 	* Creates a quote \\(q=\langle\\#\langle
 	  E,n,CAcert\rangle,PCR\rangle_{AIK^{-1}}\\).
-	  * \\(#\langle E,n,CAcert\rangle\\) guarantees integrity of the
+	  * \\(\\#\langle E,n,CAcert\rangle\\) guarantees integrity of the
       evidence, the nonce, and the CA certification
 	  * \\(PCR\\) is a PCR composite built using \\(PCRSelect\\) sent
         with the request.
