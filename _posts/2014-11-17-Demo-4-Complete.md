@@ -9,12 +9,13 @@ including explicit certification of the \\(AIK\\) by an external
 certificate authority.
 
 1. Attestation agent takes ownership of its vTPM
-1. Appraiser sends a request \\(\langle D,n\rangle\\) to an
+1. Appraiser sends a request \\(\langle D,n,PCRSelect\rangle\\) to an
    attestation agent for PCRs
 	* \\(D=[d_0,d_1,...,d_n]\\) - desire evidence
 	* \\(n\\) - nonce
+	* \\(PCRSelect\\) - PCRs to include in the TPM quote
 1. Attestation agent selects a protocol based on \\(D\\)
-1. Attestation agent executes the protocol
+1. Attestation agent executes the selected protocol:
 	* Creates an \\(AIK\\) for signing a quote
 	* Requests \\(AIK\\) authentication by a certificate authority
 	* Receives \\(\\{CAcert,AIK\\}\_{k}\\) and
@@ -24,21 +25,26 @@ certificate authority.
       the certificate authority
 	  * \\(AIKdigest\\) is \\(\\#AIK\\), the hash of public \\(AIK\\)
 	* Decrypts \\(k\\) and uses it to decrypt \\(\\{CAcert,AIK\\}\\)
-	* Gathers evidence makes calles to the measurer to gather \\(E\\)
+	* Gathers evidence makes calls to the measurer based on the
+      requst, \\(D\\), to gather \\(E\\)
 	* Receives \\(E\\)
 	* Creates an evidence package, \\(\\{\langle E,n\rangle\\}\\)
 	* Creates a quote \\(q=\langle\\#\langle
-      E,n,CAcert\rangle,PCR\rangle_{AIK^{-1}}\\).  Note the hash in
-      the quote guarantees integrity of none, the CA certification,
-      and evidence. 
+	  E,n,CAcert\rangle,PCR\rangle_{AIK^{-1}}\\).
+	  * \\(#\langle E,n,CAcert\rangle\\) guarantees integrity of the
+      evidence, the nonce, and the CA certification
+	  * \\(PCR\\) is a PCR composite built using \\(PCRSelect\\) sent
+        with the request.
 1. Attestation returns the quote, evidence and CA certification
 1. Appraiser checks the returned quote and evidence
-	* Checks \\(AIK\\) authenticity using \\(CA\\) public key
-	* Checks the signature of the quote using \\(AIK\\)
+	* Checks integrity of evidence, nonce and \\(CACert\\) using
+      \\(\\#\langle E,n,CACert\rangle\\) from the quote
+	* Checks \\([AIK]_{CA^{-1}}\\) authenticity using \\(CA\\) public key
+	* Checks the signature of the quote using the now certified \\(AIK\\)
 	* Recreates and checks the PCR composite
-	* Checks the evidence package using \\(\\#\langle E,n\rangle\\)
-	* checks \\(n\\)
-	* checks \\(E=[e_0,e_1,...,e_n]\\)
+	* checks \\(n\\) against the original nonce sent to the
+      attestation manager
+	* checks \\(E=[e_0,e_1,...,e_n]\\) against known good values
 
 All data exchanged among the appraiser, attestation manager, measurer,
 and Privacy CA is in the form of standard JSON structures.  This
